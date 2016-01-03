@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAE5A9161C38ECA800F79F5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE5A9151C38ECA800F79F5E /* main.m */; };
+		CAE5A9191C38ECA800F79F5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE5A9181C38ECA800F79F5E /* AppDelegate.m */; };
+		CAE5A91C1C38ECA800F79F5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE5A91B1C38ECA800F79F5E /* ViewController.m */; };
+		CAE5A91F1C38ECA800F79F5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE5A91D1C38ECA800F79F5E /* Main.storyboard */; };
+		CAE5A9211C38ECA800F79F5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAE5A9201C38ECA800F79F5E /* Assets.xcassets */; };
+		CAE5A9241C38ECA800F79F5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE5A9221C38ECA800F79F5E /* LaunchScreen.storyboard */; };
+		CAE5A92F1C38ECA800F79F5E /* HLEasyLineDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE5A92E1C38ECA800F79F5E /* HLEasyLineDemoTests.m */; };
+		CAE5A93C1C38ECE800F79F5E /* HLEasyLine.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE5A93B1C38ECE800F79F5E /* HLEasyLine.m */; };
+		CAE5A9421C38EEFD00F79F5E /* HLBaseLine.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE5A9411C38EEFD00F79F5E /* HLBaseLine.m */; };
+		CAE5A9481C38F66200F79F5E /* HLVerticalLine.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE5A9471C38F66200F79F5E /* HLVerticalLine.m */; };
+		CAE5A94B1C38FF9800F79F5E /* HLHorizontalLine.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE5A94A1C38FF9800F79F5E /* HLHorizontalLine.m */; };
+		CAE5A94E1C39018400F79F5E /* UIView+HLEasyLine.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE5A94D1C39018400F79F5E /* UIView+HLEasyLine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAE5A92B1C38ECA800F79F5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAE5A9091C38ECA800F79F5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAE5A9101C38ECA800F79F5E;
+			remoteInfo = HLEasyLineDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAE5A9111C38ECA800F79F5E /* HLEasyLineDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLEasyLineDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE5A9151C38ECA800F79F5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAE5A9171C38ECA800F79F5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAE5A9181C38ECA800F79F5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAE5A91A1C38ECA800F79F5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CAE5A91B1C38ECA800F79F5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CAE5A91E1C38ECA800F79F5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAE5A9201C38ECA800F79F5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAE5A9231C38ECA800F79F5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAE5A9251C38ECA800F79F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAE5A92A1C38ECA800F79F5E /* HLEasyLineDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLEasyLineDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE5A92E1C38ECA800F79F5E /* HLEasyLineDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLEasyLineDemoTests.m; sourceTree = "<group>"; };
+		CAE5A9301C38ECA800F79F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAE5A93A1C38ECE800F79F5E /* HLEasyLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HLEasyLine.h; path = HLEasyLine/HLEasyLine.h; sourceTree = "<group>"; };
+		CAE5A93B1C38ECE800F79F5E /* HLEasyLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HLEasyLine.m; path = HLEasyLine/HLEasyLine.m; sourceTree = "<group>"; };
+		CAE5A9401C38EEFD00F79F5E /* HLBaseLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HLBaseLine.h; path = HLEasyLine/HLBaseLine.h; sourceTree = "<group>"; };
+		CAE5A9411C38EEFD00F79F5E /* HLBaseLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HLBaseLine.m; path = HLEasyLine/HLBaseLine.m; sourceTree = "<group>"; };
+		CAE5A9431C38F29E00F79F5E /* HLBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HLBase.h; path = HLEasyLine/HLBase.h; sourceTree = "<group>"; };
+		CAE5A9461C38F66200F79F5E /* HLVerticalLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HLVerticalLine.h; path = HLEasyLine/HLVerticalLine.h; sourceTree = "<group>"; };
+		CAE5A9471C38F66200F79F5E /* HLVerticalLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HLVerticalLine.m; path = HLEasyLine/HLVerticalLine.m; sourceTree = "<group>"; };
+		CAE5A9491C38FF9800F79F5E /* HLHorizontalLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HLHorizontalLine.h; path = HLEasyLine/HLHorizontalLine.h; sourceTree = "<group>"; };
+		CAE5A94A1C38FF9800F79F5E /* HLHorizontalLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HLHorizontalLine.m; path = HLEasyLine/HLHorizontalLine.m; sourceTree = "<group>"; };
+		CAE5A94C1C39018400F79F5E /* UIView+HLEasyLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+HLEasyLine.h"; path = "HLEasyLine/UIView+HLEasyLine.h"; sourceTree = "<group>"; };
+		CAE5A94D1C39018400F79F5E /* UIView+HLEasyLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+HLEasyLine.m"; path = "HLEasyLine/UIView+HLEasyLine.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAE5A90E1C38ECA800F79F5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE5A9271C38ECA800F79F5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAE5A9081C38ECA800F79F5E = {
+			isa = PBXGroup;
+			children = (
+				CAE5A9391C38ECC800F79F5E /* HLEasyLine */,
+				CAE5A9131C38ECA800F79F5E /* HLEasyLineDemo */,
+				CAE5A92D1C38ECA800F79F5E /* HLEasyLineDemoTests */,
+				CAE5A9121C38ECA800F79F5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAE5A9121C38ECA800F79F5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAE5A9111C38ECA800F79F5E /* HLEasyLineDemo.app */,
+				CAE5A92A1C38ECA800F79F5E /* HLEasyLineDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAE5A9131C38ECA800F79F5E /* HLEasyLineDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CAE5A9171C38ECA800F79F5E /* AppDelegate.h */,
+				CAE5A9181C38ECA800F79F5E /* AppDelegate.m */,
+				CAE5A91A1C38ECA800F79F5E /* ViewController.h */,
+				CAE5A91B1C38ECA800F79F5E /* ViewController.m */,
+				CAE5A91D1C38ECA800F79F5E /* Main.storyboard */,
+				CAE5A9201C38ECA800F79F5E /* Assets.xcassets */,
+				CAE5A9221C38ECA800F79F5E /* LaunchScreen.storyboard */,
+				CAE5A9251C38ECA800F79F5E /* Info.plist */,
+				CAE5A9141C38ECA800F79F5E /* Supporting Files */,
+			);
+			path = HLEasyLineDemo;
+			sourceTree = "<group>";
+		};
+		CAE5A9141C38ECA800F79F5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAE5A9151C38ECA800F79F5E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CAE5A92D1C38ECA800F79F5E /* HLEasyLineDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAE5A92E1C38ECA800F79F5E /* HLEasyLineDemoTests.m */,
+				CAE5A9301C38ECA800F79F5E /* Info.plist */,
+			);
+			path = HLEasyLineDemoTests;
+			sourceTree = "<group>";
+		};
+		CAE5A9391C38ECC800F79F5E /* HLEasyLine */ = {
+			isa = PBXGroup;
+			children = (
+				CAE5A93A1C38ECE800F79F5E /* HLEasyLine.h */,
+				CAE5A93B1C38ECE800F79F5E /* HLEasyLine.m */,
+				CAE5A9401C38EEFD00F79F5E /* HLBaseLine.h */,
+				CAE5A9411C38EEFD00F79F5E /* HLBaseLine.m */,
+				CAE5A9461C38F66200F79F5E /* HLVerticalLine.h */,
+				CAE5A9471C38F66200F79F5E /* HLVerticalLine.m */,
+				CAE5A9491C38FF9800F79F5E /* HLHorizontalLine.h */,
+				CAE5A94A1C38FF9800F79F5E /* HLHorizontalLine.m */,
+				CAE5A9431C38F29E00F79F5E /* HLBase.h */,
+				CAE5A94C1C39018400F79F5E /* UIView+HLEasyLine.h */,
+				CAE5A94D1C39018400F79F5E /* UIView+HLEasyLine.m */,
+			);
+			name = HLEasyLine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAE5A9101C38ECA800F79F5E /* HLEasyLineDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAE5A9331C38ECA800F79F5E /* Build configuration list for PBXNativeTarget "HLEasyLineDemo" */;
+			buildPhases = (
+				CAE5A90D1C38ECA800F79F5E /* Sources */,
+				CAE5A90E1C38ECA800F79F5E /* Frameworks */,
+				CAE5A90F1C38ECA800F79F5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLEasyLineDemo;
+			productName = HLEasyLineDemo;
+			productReference = CAE5A9111C38ECA800F79F5E /* HLEasyLineDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAE5A9291C38ECA800F79F5E /* HLEasyLineDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAE5A9361C38ECA800F79F5E /* Build configuration list for PBXNativeTarget "HLEasyLineDemoTests" */;
+			buildPhases = (
+				CAE5A9261C38ECA800F79F5E /* Sources */,
+				CAE5A9271C38ECA800F79F5E /* Frameworks */,
+				CAE5A9281C38ECA800F79F5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAE5A92C1C38ECA800F79F5E /* PBXTargetDependency */,
+			);
+			name = HLEasyLineDemoTests;
+			productName = HLEasyLineDemoTests;
+			productReference = CAE5A92A1C38ECA800F79F5E /* HLEasyLineDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAE5A9091C38ECA800F79F5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = HenryLio;
+				TargetAttributes = {
+					CAE5A9101C38ECA800F79F5E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CAE5A9291C38ECA800F79F5E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CAE5A9101C38ECA800F79F5E;
+					};
+				};
+			};
+			buildConfigurationList = CAE5A90C1C38ECA800F79F5E /* Build configuration list for PBXProject "HLEasyLineDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAE5A9081C38ECA800F79F5E;
+			productRefGroup = CAE5A9121C38ECA800F79F5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAE5A9101C38ECA800F79F5E /* HLEasyLineDemo */,
+				CAE5A9291C38ECA800F79F5E /* HLEasyLineDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAE5A90F1C38ECA800F79F5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE5A9241C38ECA800F79F5E /* LaunchScreen.storyboard in Resources */,
+				CAE5A9211C38ECA800F79F5E /* Assets.xcassets in Resources */,
+				CAE5A91F1C38ECA800F79F5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE5A9281C38ECA800F79F5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAE5A90D1C38ECA800F79F5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE5A94E1C39018400F79F5E /* UIView+HLEasyLine.m in Sources */,
+				CAE5A9421C38EEFD00F79F5E /* HLBaseLine.m in Sources */,
+				CAE5A91C1C38ECA800F79F5E /* ViewController.m in Sources */,
+				CAE5A93C1C38ECE800F79F5E /* HLEasyLine.m in Sources */,
+				CAE5A94B1C38FF9800F79F5E /* HLHorizontalLine.m in Sources */,
+				CAE5A9481C38F66200F79F5E /* HLVerticalLine.m in Sources */,
+				CAE5A9191C38ECA800F79F5E /* AppDelegate.m in Sources */,
+				CAE5A9161C38ECA800F79F5E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAE5A9261C38ECA800F79F5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE5A92F1C38ECA800F79F5E /* HLEasyLineDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAE5A92C1C38ECA800F79F5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAE5A9101C38ECA800F79F5E /* HLEasyLineDemo */;
+			targetProxy = CAE5A92B1C38ECA800F79F5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAE5A91D1C38ECA800F79F5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAE5A91E1C38ECA800F79F5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAE5A9221C38ECA800F79F5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAE5A9231C38ECA800F79F5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAE5A9311C38ECA800F79F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAE5A9321C38ECA800F79F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAE5A9341C38ECA800F79F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HLEasyLineDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrylio.HLEasyLineDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CAE5A9351C38ECA800F79F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HLEasyLineDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrylio.HLEasyLineDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CAE5A9371C38ECA800F79F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HLEasyLineDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrylio.HLEasyLineDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLEasyLineDemo.app/HLEasyLineDemo";
+			};
+			name = Debug;
+		};
+		CAE5A9381C38ECA800F79F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HLEasyLineDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.henrylio.HLEasyLineDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLEasyLineDemo.app/HLEasyLineDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAE5A90C1C38ECA800F79F5E /* Build configuration list for PBXProject "HLEasyLineDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE5A9311C38ECA800F79F5E /* Debug */,
+				CAE5A9321C38ECA800F79F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAE5A9331C38ECA800F79F5E /* Build configuration list for PBXNativeTarget "HLEasyLineDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE5A9341C38ECA800F79F5E /* Debug */,
+				CAE5A9351C38ECA800F79F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CAE5A9361C38ECA800F79F5E /* Build configuration list for PBXNativeTarget "HLEasyLineDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE5A9371C38ECA800F79F5E /* Debug */,
+				CAE5A9381C38ECA800F79F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAE5A9091C38ECA800F79F5E /* Project object */;
+}
