@@ -63,7 +63,7 @@ typedef struct HLFrame HLFrame;
 ```
 *HLFrame*是一个结构体，又包含了*startPoint(HLPoint)*和*lineSize(HLSize)*两个结构体
 
-*startPoint(HLPoint)*是线的起点，用法跟CGPoint是一样的,有内联的构造函数
+*startPoint(HLPoint)*是线的起点,有内联的构造函数
 
 *lineSize(HLSize)*不同于CGSize，它的*width*和*length*分别代表线的宽度和长度，其中宽度(*width*)在使用中以像素为单位，即 ***HLFrameMake(100,0,1,200)*** 代表线的起点为(100,0),宽度为1像素，长度为200
 
