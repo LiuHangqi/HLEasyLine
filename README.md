@@ -6,27 +6,17 @@
 - 因为苹果为了防止锯齿会将一个一像素的View放在两个像素上，然后降低颜色深度，视觉上达到一像素的效果，然而这个效果有时候并不能满足我们锱铢必较的设计师，所以有了它。
 
 ## 使用：
-- **在View的四个边的某一边添加一条线**
-
-```
-#import "UIView+HLEasyLine.h"
- 
-- (void)addTopLineWidth:(CGFloat)width Color:(UIColor*)color;
-- (void)addBottomLineWidth:(CGFloat)width Color:(UIColor*)color;
-- (void)addLeftLineWidth:(CGFloat)width Color:(UIColor*)color;
-- (void)addRightLineWidth:(CGFloat)width Color:(UIColor*)color;
-
-```
 
 - **自定义的线(分为水平方向的线和垂直方向的线)**
 
 ```
 #import "HLEasyLine.h"
-+ (HLVerticalLine*)verticalLineWithLineFrame:(HLFrame)lineFrame;
++ (HLVerticalLine*)verticalLineWithLineFrame:(HLFrame)lineFrame LineColor:(UIColor*)color;
 + (HLVerticalLine*)verticalLine;
 
-+ (HLHorizontalLine*)horizontalLineWithLineFrame:(HLFrame)lineFrame;
++ (HLHorizontalLine*)horizontalLineWithLineFrame:(HLFrame)lineFrame LineColor:(UIColor*)color;
 + (HLHorizontalLine*)horizontalLine;
+
 ```
 
 - **可以设置颜色、起点、宽度和长度**

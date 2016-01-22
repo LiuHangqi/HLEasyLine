@@ -11,10 +11,10 @@
 #import "HLHorizontalLine.h"
 @interface HLEasyLine : NSObject
 
-+ (HLVerticalLine*)verticalLineWithLineFrame:(HLFrame)lineFrame;
++ (HLVerticalLine*)verticalLineWithLineFrame:(HLFrame)lineFrame LineColor:(UIColor*)color;
 + (HLVerticalLine*)verticalLine;
 
-+ (HLHorizontalLine*)horizontalLineWithLineFrame:(HLFrame)lineFrame;
++ (HLHorizontalLine*)horizontalLineWithLineFrame:(HLFrame)lineFrame LineColor:(UIColor*)color;
 + (HLHorizontalLine*)horizontalLine;
 
 @end

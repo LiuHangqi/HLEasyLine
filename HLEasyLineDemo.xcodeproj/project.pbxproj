@@ -18,7 +18,6 @@
 		CAE5A9421C38EEFD00F79F5E /* HLBaseLine.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE5A9411C38EEFD00F79F5E /* HLBaseLine.m */; };
 		CAE5A9481C38F66200F79F5E /* HLVerticalLine.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE5A9471C38F66200F79F5E /* HLVerticalLine.m */; };
 		CAE5A94B1C38FF9800F79F5E /* HLHorizontalLine.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE5A94A1C38FF9800F79F5E /* HLHorizontalLine.m */; };
-		CAE5A94E1C39018400F79F5E /* UIView+HLEasyLine.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE5A94D1C39018400F79F5E /* UIView+HLEasyLine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +53,6 @@
 		CAE5A9471C38F66200F79F5E /* HLVerticalLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HLVerticalLine.m; path = HLEasyLine/HLVerticalLine.m; sourceTree = "<group>"; };
 		CAE5A9491C38FF9800F79F5E /* HLHorizontalLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HLHorizontalLine.h; path = HLEasyLine/HLHorizontalLine.h; sourceTree = "<group>"; };
 		CAE5A94A1C38FF9800F79F5E /* HLHorizontalLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HLHorizontalLine.m; path = HLEasyLine/HLHorizontalLine.m; sourceTree = "<group>"; };
-		CAE5A94C1C39018400F79F5E /* UIView+HLEasyLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+HLEasyLine.h"; path = "HLEasyLine/UIView+HLEasyLine.h"; sourceTree = "<group>"; };
-		CAE5A94D1C39018400F79F5E /* UIView+HLEasyLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+HLEasyLine.m"; path = "HLEasyLine/UIView+HLEasyLine.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,8 +137,6 @@
 				CAE5A9491C38FF9800F79F5E /* HLHorizontalLine.h */,
 				CAE5A94A1C38FF9800F79F5E /* HLHorizontalLine.m */,
 				CAE5A9431C38F29E00F79F5E /* HLBase.h */,
-				CAE5A94C1C39018400F79F5E /* UIView+HLEasyLine.h */,
-				CAE5A94D1C39018400F79F5E /* UIView+HLEasyLine.m */,
 			);
 			name = HLEasyLine;
 			sourceTree = "<group>";
@@ -246,7 +241,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAE5A94E1C39018400F79F5E /* UIView+HLEasyLine.m in Sources */,
 				CAE5A9421C38EEFD00F79F5E /* HLBaseLine.m in Sources */,
 				CAE5A91C1C38ECA800F79F5E /* ViewController.m in Sources */,
 				CAE5A93C1C38ECE800F79F5E /* HLEasyLine.m in Sources */,
@@ -442,6 +436,7 @@
 				CAE5A9351C38ECA800F79F5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CAE5A9361C38ECA800F79F5E /* Build configuration list for PBXNativeTarget "HLEasyLineDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +445,7 @@
 				CAE5A9381C38ECA800F79F5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

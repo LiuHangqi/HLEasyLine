@@ -9,8 +9,9 @@
 #import "HLEasyLine.h"
 
 @implementation HLEasyLine
-+ (HLVerticalLine*)verticalLineWithLineFrame:(HLFrame)lineFrame{
++ (HLVerticalLine*)verticalLineWithLineFrame:(HLFrame)lineFrame LineColor:(UIColor*)color{
     HLVerticalLine* line = [[HLVerticalLine alloc]initWithLineFrame:lineFrame];
+    line.lineColor = color;
     return line;
 }
 + (HLVerticalLine *)verticalLine{
@@ -18,8 +19,9 @@
     return line;
 }
 
-+ (HLHorizontalLine *)horizontalLineWithLineFrame:(HLFrame)lineFrame{
++ (HLHorizontalLine *)horizontalLineWithLineFrame:(HLFrame)lineFrame LineColor:(UIColor*)color{
     HLHorizontalLine* line = [[HLHorizontalLine alloc]initWithLineFrame:lineFrame];
+    line.lineColor = color;
     return line;
 }
 + (HLHorizontalLine *)horizontalLine{

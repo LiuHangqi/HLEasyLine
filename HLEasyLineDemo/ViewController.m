@@ -9,8 +9,6 @@
 #import "ViewController.h"
 #import "HLVerticalLine.h"
 #import "HLEasyLine.h"
-#import "HLHorizontalLine.h"
-#import "UIView+HLEasyLine.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIView *cview;
@@ -22,14 +20,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    HLHorizontalLine* line = [[HLHorizontalLine alloc]init];
+    HLHorizontalLine* line = [HLEasyLine horizontalLineWithLineFrame:HLFrameMake(0, 100, 1, 300) LineColor:[UIColor redColor]];
     [self.view addSubview:line];
-    line.lineFrame = HLFrameMake(0, 100, 1, 300);
     
-    [_cview addTopLineWidth:1 Color:[UIColor blackColor]];
-    [_cview addBottomLineWidth:1 Color:[UIColor blackColor]];
-    [_cview addLeftLineWidth:1 Color:[UIColor blackColor]];
-    [_cview addRightLineWidth:1 Color:[UIColor blackColor]];
 }
 
 - (void)didReceiveMemoryWarning {
